@@ -17,5 +17,5 @@
 - **Why it exists:** To help the users to upload folders to Git without the files they dont want to share with everyone like a file that contains passwords.
 
 ### 5. git diff
-- **Definition:** It shows the changes in git made by others and by the user, line by line. It is very specific and you use it before git add.
-- **Why its exists:** To help the user chec  the changes in git that the others made and if he runs into a problem he can return to the last git that worked.
+- **Definition:** Shows the exact line-by-line differences between your current code and the last saved state before staging.
+- **Why it exists:** Allows developers to review their local changes carefully before running `git add` to prevent committing unintended bugs or temporary code.
