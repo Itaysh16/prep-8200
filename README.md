@@ -12,3 +12,6 @@ To run the login script, execute:
 ```bash
 python3 login.py
 ```
+
+## Security
+Sensitive files and configs are strictly ignored via .gitignore.
